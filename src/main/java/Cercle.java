@@ -13,4 +13,14 @@ public class Cercle implements Shape{
 		return 2 * rayon * (float)Math.PI;
 	}
 
+	public void afficher() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public int deplacer() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

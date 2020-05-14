@@ -13,5 +13,15 @@ public class Rectangle implements Shape{
 		return 2 * (largeur + hauteur);
 	}
 
+	public void afficher() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public int deplacer() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 
 }

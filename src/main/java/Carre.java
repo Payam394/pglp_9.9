@@ -12,5 +12,15 @@ public class Carre implements Shape{
 		return cote * 4;
 	}
 
+	public void afficher() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public int deplacer() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 
 }

@@ -19,5 +19,15 @@ public class Triangle implements Shape{
 		return (float) Math.sqrt(  Math.pow((a.y-b.y), 2) +  Math.pow((a.x-b.x), 2));
 	}
 
+	public void afficher() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public int deplacer() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 
 }
