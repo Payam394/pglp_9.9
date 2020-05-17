@@ -1,12 +1,12 @@
 
 public interface Shape {
 	
-	public float surface();
+	 float surface();
 	
-	public float diametre();
+	 float diametre();
 	
-	public void afficher();
+	 void afficher();
 	
-	public int deplacer();
+	 int deplacer();
 
 }
