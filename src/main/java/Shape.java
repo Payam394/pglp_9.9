@@ -1,16 +1,7 @@
 
-abstract class Shape {
+abstract class Shape implements Dessin{
 
 	String nom;
+	String type;
 	
-	 abstract float surface();
-	
-	 abstract float diametre();
-	
-	 abstract void afficher();
-	
-	 abstract void deplacer(int x, int y);
-	 
-	 abstract void moveTo(Point dest);
-
 }

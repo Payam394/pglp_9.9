@@ -1,10 +1,37 @@
 import java.util.ArrayList;
 
-public class Regroupement implements DAOGroupe<Shape>{
+public class Regroupement implements Dessin{ //implements DAOGroupe<Shape> 
 	
-	ArrayList<Shape> ensemble = new ArrayList<Shape>();
-	
+	ArrayList<Dessin> ensemble = new ArrayList<Dessin>();
 
+	public void afficher() {
+		for (Dessin s:ensemble) {
+			s.afficher();
+		}
+		
+	}
+
+	
+	public void moveTo(Point dest) {
+		for (Dessin s:ensemble) {
+			s.moveTo(dest);
+		}
+		
+	}
+
+
+	public void deplacer(int x, int y) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+	
+	
+	/*
+	
 	public ArrayList<Shape> getAll() {
 		return ensemble;
 	}
@@ -21,5 +48,5 @@ public class Regroupement implements DAOGroupe<Shape>{
 		ensemble.remove(t);
 	}
 	
-	
+	*/
 }
