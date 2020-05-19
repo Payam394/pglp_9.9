@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Regroupement implements Dessin{ //implements DAOGroupe<Shape> 
+public class Regroupement implements Dessin, DAOGroupe<Dessin>{ //implements DAOGroupe<Shape> 
 	
 	ArrayList<Dessin> ensemble = new ArrayList<Dessin>();
 
@@ -10,43 +10,31 @@ public class Regroupement implements Dessin{ //implements DAOGroupe<Shape>
 		}
 		
 	}
-
-	
 	public void moveTo(Point dest) {
 		for (Dessin s:ensemble) {
 			s.moveTo(dest);
 		}
 		
 	}
-
-
 	public void deplacer(int x, int y) {
 		// TODO Auto-generated method stub
 		
 	}
+
 	
 	
-	
-	
-	
-	
-	/*
-	
-	public ArrayList<Shape> getAll() {
+	public ArrayList<Dessin> getAll() {
 		return ensemble;
 	}
 
-	public void add(Shape t) {
+
+	public void add(Dessin t) {
 		ensemble.add(t);
 	}
 
-	public void deplacer(int x, int y) {
-		
-	}
 
-	public void delete(Shape t) {
+	public void delete(Dessin t) {
 		ensemble.remove(t);
 	}
 	
-	*/
 }
