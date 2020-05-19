@@ -1,5 +1,5 @@
 
-public class Rectangle implements Shape{
+public class Rectangle extends Shape{
 	
 	private Point centre; 
 	private float largeur;
@@ -18,9 +18,14 @@ public class Rectangle implements Shape{
 		
 	}
 
-	public int deplacer() {
+	public void deplacer(int x, int y) {
 		// TODO Auto-generated method stub
-		return 0;
+		
+	}
+
+	public void moveTo(Point dest) {
+		// TODO Auto-generated method stub
+		
 	}
 
 

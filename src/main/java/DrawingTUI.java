@@ -2,7 +2,8 @@
 public class DrawingTUI implements Command{
 	
 	
-	public void nextCommand() {
+	public Shape nextCommand(String text) {	//implements Command
+		return null;
 		
 	}
 	

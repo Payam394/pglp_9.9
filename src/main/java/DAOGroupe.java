@@ -6,7 +6,7 @@ public interface DAOGroupe<T> {
     
     void add(T t);
     
-    void deplacer(T t, Point dest);
+    void deplacer(int x, int y);
      
     void delete(T t);
 

@@ -1,5 +1,5 @@
 
-public class Cercle implements Shape{
+public class Cercle extends Shape{
 	
 	private Point centre;
 	private float rayon;
@@ -18,9 +18,14 @@ public class Cercle implements Shape{
 		
 	}
 
-	public int deplacer() {
+	public void deplacer(int x, int y) {
 		// TODO Auto-generated method stub
-		return 0;
+		
+	}
+
+	public void moveTo(Point dest) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

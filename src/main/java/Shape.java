@@ -1,12 +1,16 @@
 
-public interface Shape {
+abstract class Shape {
+
+	String nom;
 	
-	 float surface();
+	 abstract float surface();
 	
-	 float diametre();
+	 abstract float diametre();
 	
-	 void afficher();
+	 abstract void afficher();
 	
-	 int deplacer();
+	 abstract void deplacer(int x, int y);
+	 
+	 abstract void moveTo(Point dest);
 
 }

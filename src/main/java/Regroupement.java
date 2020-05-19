@@ -10,18 +10,15 @@ public class Regroupement implements DAOGroupe<Shape>{
 	}
 
 	public void add(Shape t) {
-		// TODO Auto-generated method stub
-		
+		ensemble.add(t);
 	}
 
-	public void deplacer(Shape t, Point dest) {
-		// TODO Auto-generated method stub
+	public void deplacer(int x, int y) {
 		
 	}
 
 	public void delete(Shape t) {
-		// TODO Auto-generated method stub
-		
+		ensemble.remove(t);
 	}
 	
 	

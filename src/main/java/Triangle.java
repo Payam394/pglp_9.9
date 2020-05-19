@@ -1,5 +1,5 @@
 
-public class Triangle implements Shape{
+public class Triangle extends Shape{
 	
 	private Point centre; 
 	private Point p2; 
@@ -24,9 +24,14 @@ public class Triangle implements Shape{
 		
 	}
 
-	public int deplacer() {
+	public void deplacer(int x, int y) {
 		// TODO Auto-generated method stub
-		return 0;
+		
+	}
+
+	public void moveTo(Point dest) {
+		// TODO Auto-generated method stub
+		
 	}
 
 
