@@ -1,3 +1,4 @@
+package systeme;
 import java.util.ArrayList;
 
 public class Regroupement implements Dessin, DAOGroupe<Dessin>{ //implements DAOGroupe<Shape> 
@@ -17,8 +18,9 @@ public class Regroupement implements Dessin, DAOGroupe<Dessin>{ //implements DAO
 		
 	}
 	public void deplacer(int x, int y) {
-		// TODO Auto-generated method stub
-		
+		for (Dessin s:ensemble) {
+			s.deplacer(x, y);
+		}
 	}
 
 	

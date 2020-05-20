@@ -1,4 +1,4 @@
-
+package actions;
 public class actionSupprimer implements Command{
 
 	public void execute() {

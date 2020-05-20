@@ -1,5 +1,6 @@
+package systeme;
 
-abstract class Shape implements Dessin{
+public abstract class Shape implements Dessin{
 
 	String nom;
 	String type;

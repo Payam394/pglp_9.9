@@ -1,11 +1,11 @@
-
+package systeme;
 public class Cercle extends Shape{
 	
 	
 	private Point centre;
 	private float rayon;
 	
-	public Cercle(String nom, String type, float rayon, Point centre) {
+	public Cercle(String nom, String type, Point centre, float rayon) {
 		super(nom, type);
 		
 		this.centre=centre;

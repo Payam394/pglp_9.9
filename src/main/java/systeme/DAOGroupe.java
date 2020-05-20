@@ -1,3 +1,4 @@
+package systeme;
 import java.util.ArrayList;
 
 public interface DAOGroupe<T> {

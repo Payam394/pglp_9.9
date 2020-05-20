@@ -1,4 +1,4 @@
-
+package actions;
 public class actionRegrouper implements Command{
 
 	public void execute() {

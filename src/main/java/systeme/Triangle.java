@@ -1,4 +1,4 @@
-
+package systeme;
 public class Triangle extends Shape{
 
 	private Point centre; 
@@ -31,8 +31,8 @@ public class Triangle extends Shape{
 	public void afficher() {
 		System.out.println("Triangle'"+this.nom +
 				"'\tPos1:(" + centre.x + ", " + centre.y +
-				"'\tPos2:(" + p2.x + ", " + p2.y +
-				"'\tPos3:(" + p3.x + ", " + p3.y);
+				")\tPos2:(" + p2.x + ", " + p2.y +
+				")\tPos3:(" + p3.x + ", " + p3.y +")");
 	}
 
 	public void deplacer(int x, int y) {

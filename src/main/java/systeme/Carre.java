@@ -1,4 +1,4 @@
-
+package systeme;
 public class Carre extends Shape{
 
 	private Point centre; 

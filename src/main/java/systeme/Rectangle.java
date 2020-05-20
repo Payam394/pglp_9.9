@@ -1,4 +1,4 @@
-
+package systeme;
 public class Rectangle extends Shape{
 	
 	
