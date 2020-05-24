@@ -24,7 +24,7 @@ public class Rectangle extends Shape{
 	public void afficher() {
 		System.out.println("Rectengle'"+this.nom +
 				"'\tCentre:(" + centre.x + ", " + centre.y +
-				"'\tPos2:(" + p2.x + ", " + p2.y);
+				"'\tPos2:(" + p2.x + ", " + p2.y + ")");
 	}
 
 	public void deplacer(int x, int y) {
